@@ -1,14 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Button from "./Button.js";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from './Button.js';
 
 function Container() {
   return React.createElement(
-    "div",
+    'div',
     null,
-    React.createElement("p", null, "버튼을 클릭해 주세요."),
-    React.createElement(Button, { label: "좋아요" }),
-    React.createElement(Button, { label: "싫어요" })
+    React.createElement('p', null, '버튼을 클릭해 주세요.'),
+    React.createElement(Button, { label: '좋아요' }),
+    React.createElement(Button, { label: '싫어요' })
   );
 }
 
