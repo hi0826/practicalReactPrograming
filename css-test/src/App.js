@@ -6,6 +6,7 @@ import Button3 from './Button3';
 import Box1 from './Box1';
 import Box2 from './Box2';
 import Box3 from './Box3';
+import Box4 from './Box4';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Button3 size="small" />
       <Box3 size="big" />
       <Box3 size="small" />
+      <Box4 size="big" />
+      <Box4 size="small" />
     </div>
   );
 }
